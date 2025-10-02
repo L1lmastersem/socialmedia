@@ -1,0 +1,199 @@
+/* ========== Reset & base ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 400 1.6rem/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    background: linear-gradient(135deg, #181c24 0%, #232a36 100%);
+    color: #111;
+    transition: background 0.6s cubic-bezier(.4,0,.2,1);
+    min-height: 100vh;
+}
+
+/* Layout helpers */
+.container {
+    width: min(52rem, 100%);
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: linear-gradient(120deg, #fff 80%, #e6e9ee 100%);
+    border: 1px solid #e6e9ee;
+    border-radius: 1.6rem;
+    box-shadow: 0 6px 32px 0 rgba(30,37,46,0.18), 0 1.5px 4px 0 rgba(30,37,46,0.10);
+    overflow: hidden;
+    transition: box-shadow 0.4s cubic-bezier(.4,0,.2,1), border 0.3s, background 0.5s;
+}
+
+/* Header */
+.igheader {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(2px);
+    transition: background 0.4s;
+}
+
+.igavatar {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid #5b9cff;
+    box-shadow: 0 2px 8px 0 rgba(91,156,255,0.10);
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.igwho {
+    line-height: 1.2;
+}
+
+.igname {
+    font-size: 1.4rem;
+}
+
+.igplace {
+    font-size: 1.2rem;
+    color: #9aa4b2;
+}
+
+.igmore {
+  border: none;
+  background: none;
+  color: #444;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50%;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s;
+}
+
+.igmore:hover {
+  background: #f0f2f5;
+  color: #232a36;
+  transform: scale(1.1);
+}
+
+.igmore:active {
+  background: #e0e4ea;
+  transform: scale(0.95);
+}
+
+
+/* Media */
+.igmedia img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    /* square */
+    object-fit: cover;
+    display: block;
+    background: #1a2230;
+    border-radius: 1.2rem 1.2rem 0 0;
+    transition: filter 0.4s;
+}
+
+/* Action row */
+.igactions {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    padding: .6rem .8rem;
+}
+
+.igleft {
+    display: flex;
+    gap: .8rem;
+}
+
+.icon {
+    background: transparent;
+    color: black;
+    padding: .6rem .9rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border 0.3s;
+}
+.icon:hover {
+    background: #e6e9ee;
+    color: #232a36;
+    border: 1px solid #232a36;
+}
+
+/* Stats & caption */
+.igstats {
+    padding: 0 1.2rem 1.2rem;
+    display: grid;
+    gap: .3rem;
+}
+
+.iglikes strong {
+    font-weight: 700;
+}
+
+.igcaption {
+    color: #232a36;
+    transition: color 0.3s;
+}
+
+.igcomments-link,
+.igtime {
+    color: #9aa4b2;
+    font-size: 1.3rem;
+}
+
+.igtime {
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+/* Comment row (visual only) */
+.igcomment {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    padding: .8rem 1.2rem;
+    border-top: 1px solid #e6e9ee;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(2px);
+    transition: background 0.4s, border 0.3s;
+}
+
+.iginput {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: #232a36;
+    outline: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.iginput::placeholder {
+    color: #9aa4b2;
+    opacity: 0.8;
+}
+
+.igpost {
+    border: none;
+    background: none;
+    color: #5b9cff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: .4rem .2rem;
+}
+
+.igpost:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="all.mis.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <article class="card ig" aria-label="Instagram post">
+      <!-- Header -->
+      <header class="igheader">
+        <img class="igavatar" src="https://picsum.photos/64?random=7" alt="Profiel van anime_fanclub" />
+        <div class="igwho">
+          <strong class="igname">Sem</strong>
+          <span class="igplace">Amsterdam</span>
+        </div>
+        <button class="igmore" aria-label="Meer opties" title="Meer">⋯</button>
+      </header>
+
+      <!-- Media -->
+      <figure class="igmedia">
+        <img src="https://picsum.photos/1080/1080?random=101" alt="Foto van de post" loading="lazy"/>
+      </figure>
+
+      <!-- Action row (static) -->
+      <div class="igactions" role="group" aria-label="Acties">
+        <div class="igleft">
+          <button class="icon" aria-label="Vind ik leuk" title="Vind ik leuk"><i class="fa-regular fa-heart"></i></button>
+          <button class="icon" aria-label="Reageren" title="Reageren"><i class="fa-regular fa-comment"></i></button>
+          <button class="icon" aria-label="Delen" title="Delen"><i class="fa-regular fa-paper-plane"></i></i></button>
+        </div>
+      </div>
+
+      <!-- Stats + caption -->
+      <section class="igstats">
+        <p class="iglikes"><strong>2.348</strong> vind-ik-leuks</p>
+        <p class="igcaption">
+          <strong>Sem</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. #art #fyp
+        </p>
+        <p class="igcomments-link">Bekijk alle 87 reacties</p>
+        <p class="igtime"><time datetime="2025-09-21T10:00:00">2 uur geleden</time></p>
+      </section>
+
+      <!-- Comment input (purely visual) -->
+      <form class="igcomment" action="." method="get" aria-label="Reactie veld">
+        <input class="iginput" type="text" placeholder="Plaats een reactie…" aria-label="Plaats een reactie" />
+        <button class="igpost" type="button">Plaatsen</button>
+      </form>
+    </article>
+  </main>
+</body>
+</html>
