@@ -1,0 +1,102 @@
+[
+  {
+    "author": "Vivien_on_the_hunt",
+    "avatar": "https://picsum.photos/64?random=11",
+    "place": "Rotterdam",
+    "image": "https://picsum.photos/1080/1080?random=301",
+    "likes": 201,
+    "comments": 67,
+    "caption": "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb",
+    "time": "2025-10-20T08:15:00"
+  },
+  {
+    "author": "PixelNomad",
+    "avatar": "https://picsum.photos/64?random=12",
+    "place": "Eindhoven",
+    "image": "https://picsum.photos/1080/1080?random=302",
+    "likes": 87,
+    "comments": 14,
+    "caption": "Coffee tastes better when it's earned after an all-nighter coding.",
+    "time": "2025-10-18T21:45:00"
+  },
+  {
+    "author": "CitySketcher",
+    "avatar": "https://picsum.photos/64?random=13",
+    "place": "Den Haag",
+    "image": "https://picsum.photos/1080/1080?random=303",
+    "likes": 342,
+    "comments": 29,
+    "caption": "Quick urban sketch from today — love the light on the canal.",
+    "time": "2025-10-10T14:20:00"
+  },
+  {
+    "author": "GreenThumbs",
+    "avatar": "https://picsum.photos/64?random=14",
+    "place": "Utrecht",
+    "image": "https://picsum.photos/1080/1080?random=304",
+    "likes": 1290,
+    "comments": 210,
+    "caption": "Autumn planting list — bulbs arriving next week! 🌷🌱",
+    "time": "2025-09-30T09:00:00"
+  },
+  {
+    "author": "CafeCorner",
+    "avatar": "https://picsum.photos/64?random=15",
+    "place": "Groningen",
+    "image": "https://picsum.photos/1080/1080?random=305",
+    "likes": 76,
+    "comments": 5,
+    "caption": "New seasonal menu — come try the chestnut latte!",
+    "time": "2025-10-22T11:30:00"
+  },
+  {
+    "author": "MilaDraws",
+    "avatar": "https://picsum.photos/64?random=16",
+    "place": "Maastricht",
+    "image": "https://picsum.photos/1080/1080?random=306",
+    "likes": 512,
+    "comments": 64,
+    "caption": "A quick sketch I made today — still messy but love the composition.",
+    "time": "2025-10-01T09:30:00"
+  },
+  {
+    "author": "TravelTales",
+    "avatar": "https://picsum.photos/64?random=17",
+    "place": "Leiden",
+    "image": "https://picsum.photos/1080/1080?random=307",
+    "likes": 940,
+    "comments": 123,
+    "caption": "Weekend escapes: tips for getting the most out of a 48-hour trip.",
+    "time": "2025-09-26T07:00:00"
+  },
+  {
+    "author": "VinylVibes",
+    "avatar": "https://picsum.photos/64?random=18",
+    "place": "Haarlem",
+    "image": "https://picsum.photos/1080/1080?random=308",
+    "likes": 274,
+    "comments": 31,
+    "caption": "Found a mint copy of my favorite album — best thrift score ever.",
+    "time": "2025-10-02T18:05:00"
+  },
+  {
+    "author": "FoodieNora",
+    "avatar": "https://picsum.photos/64?random=19",
+    "place": "Tilburg",
+    "image": "https://picsum.photos/1080/1080?random=309",
+    "likes": 654,
+    "comments": 88,
+    "caption": "Homemade sourdough experiment #3 — that crumb though.",
+    "time": "2025-10-15T06:50:00"
+  },
+  {
+    "author": "CodeCatcher",
+    "avatar": "https://picsum.photos/64?random=20",
+    "place": "Eindhoven",
+    "image": "https://picsum.photos/1080/1080?random=310",
+    "likes": 43,
+    "comments": 2,
+    "caption": "Debugging midnight thoughts — always log the thing you assume.",
+    "time": "2025-10-24T00:10:00"
+  }
+]

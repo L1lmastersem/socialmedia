@@ -1,4 +1,3 @@
-/* ========== Reset & base ========== */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ body {
     min-height: 100vh;
 }
 
-/* Layout helpers */
 .container {
     width: min(52rem, 100%);
     margin: 2rem auto;
@@ -91,12 +89,9 @@ body {
   transform: scale(0.95);
 }
 
-
-/* Media */
 .igmedia img {
     width: 100%;
     aspect-ratio: 1 / 1;
-    /* square */
     object-fit: cover;
     display: block;
     background: #1a2230;
@@ -104,7 +99,11 @@ body {
     transition: filter 0.4s;
 }
 
-/* Action row */
+.igmedia img.broken {
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
 .igactions {
     display: flex;
     align-items: center;
@@ -131,7 +130,6 @@ body {
     border: 1px solid #232a36;
 }
 
-/* Stats & caption */
 .igstats {
     padding: 0 1.2rem 1.2rem;
     display: grid;
@@ -158,7 +156,6 @@ body {
     letter-spacing: .02em;
 }
 
-/* Comment row (visual only) */
 .igcomment {
     display: flex;
     align-items: center;
